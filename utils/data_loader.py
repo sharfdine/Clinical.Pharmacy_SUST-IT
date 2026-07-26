@@ -59,7 +59,7 @@ SHEET_KEYWORDS = {
 }
 
 
-def _find_header_row(uploaded_bytes: BytesIO, sheet_name: str, max_rows_to_check: int = 5) -> int:
+def _find_header_row(uploaded_bytes: BytesIO, sheet_name: str, max_rows_to_check: int = 10) -> int:
     """
     Detect which row actually contains the column headers.
 
